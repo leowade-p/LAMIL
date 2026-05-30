@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Archives and vendor drops (not part of this repo)
+*.zip
+*-master/
+AttriMIL-main/
+CAMIL-main/
+CLAM-master/
+DTFD-MIL-main/
+dsmil-wsi-master/
+RRT-MIL-master/
+TransMIL-main/
+
+# Paper and local analysis (optional; keep out of code release)
+*.tex
+*.bib
+*.cls
+*.pdf
+*.png
+lambda1_selected_points.csv
+plot_gt_vs_dino_hist.py
+compare_mask_scale_for_paper.py
+sen/
+
+# Data, checkpoints, experiment outputs
+third_party/dinov2/
+third_party/*.pth
+*.pt
+*.ckpt
+*.nii
+*.nrrd
+kfold_results*/
+abus_mil_experiments/
+batch_logs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc leftovers at repo root
+main_comp++onent.py
+test.py
+abus.zip
+rrt_mil_vendor.zip
