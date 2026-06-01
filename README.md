@@ -45,8 +45,17 @@ Top-level files such as `cbbct/main_component.py` and `abus/config.py` are thin 
    ```
 
 3. Download `dinov2_vitl14_reg4_pretrain.pth` into `third_party/` (or set `DINOV2_WEIGHTS`).
+4. The datasets can be accessed via Baidu Netdisk:
 
-4. Configure paths via environment variables (see `cbbct/configs/config.example.py` and `abus/configs/config.example.py`), or edit `cbbct/configs/config.py` / `abus/configs/config.py` (also exposed as `cbbct/config.py`).
+Link: https://pan.baidu.com/s/1ruwW21I1JRlDkQCdJ8BMmg
+
+Extraction code: Please contact Yineng Zheng for the extraction code.
+
+Contact person: Yineng Zheng
+Email: yinengzheng@cqmu.edu.cn
+Institution: The First Affiliated Hospital of Chongqing Medical University
+
+5. Configure paths via environment variables (see `cbbct/configs/config.example.py` and `abus/configs/config.example.py`), or edit `cbbct/configs/config.py` / `abus/configs/config.py` (also exposed as `cbbct/config.py`).
 
 | Variable | Description |
 |----------|-------------|
